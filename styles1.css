@@ -1,0 +1,54 @@
+body{
+
+}
+h1{color: red;
+  font-size: 35px;
+  font-family:cursive, sans-serif;
+}
+h3{
+  color: red;
+    font-size: 30px;
+    font-family:cursive, sans-serif;
+}
+h2{
+  border: 2px dotted red;
+}
+p{color: gray;
+  font-family: fantasy , sans-serif;
+font-size: 15px;
+}
+
+table{
+  border: 12px solid red;
+  border-collapse: collapse;
+  margin-left;
+  width: 50%;
+}
+th{
+    border: 2px solid black;
+    font-family: fantasy , sans-serif;
+    font-size: 30px;
+    color: red;
+    background-color:white;
+    text-align: center;
+    padding: 12px;
+}
+td{
+  border: 2px solid black;
+  font-size: 25px;
+  text-align: center;
+}
+ol{
+  font-size: 25px;
+}
+li{
+  padding: 30px;
+  color: gray;
+}
+.name{
+  color:red;
+  font-weight: bold;
+}
+img{
+  width: 50%;
+}
