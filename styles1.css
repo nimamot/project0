@@ -6,20 +6,21 @@ h1{color: red;
   font-family:cursive, sans-serif;
 }
 h3{
-  color: red;
+  color: green;
     font-size: 30px;
-    font-family:cursive, sans-serif;
+    font-family: monospace, sans-serif;
 }
 h2{
   border: 2px dotted red;
+  color: green;
 }
-p{color: gray;
+p, button{color: gray;
   font-family: fantasy , sans-serif;
-font-size: 15px;
+font-size: 19px;
 }
 
 table{
-  border: 12px solid red;
+  border: 5px solid green;
   border-collapse: collapse;
   margin-left;
   width: 50%;
@@ -40,10 +41,12 @@ td{
 }
 ol{
   font-size: 25px;
-}
+  }
+
 li{
-  padding: 30px;
+  padding: 12px;
   color: gray;
+  font-size: 20px;
 }
 .name{
   color:red;
@@ -51,4 +54,14 @@ li{
 }
 img{
   width: 50%;
+}
+button:hover {
+  background-color: yellow;
+  font-size: 20px;
+}
+a::before {
+  content:"\27B1";
+}
+ul li {
+  color: brown;
 }
