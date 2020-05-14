@@ -13,6 +13,8 @@ h3{
 h2{
   border: 2px dotted red;
   color: green;
+  text-align: center;
+
 }
 p, button{color: gray;
   font-family: fantasy , sans-serif;
@@ -64,4 +66,24 @@ a::before {
 }
 ul li {
   color: brown;
+}
+@media print{
+  .screen{
+    display: none;
+  }
+}
+.card, .card-body{
+  margin: 20px;
+  border: 50px solod black;
+}
+.col-lg-3, .col-sm-6{
+  background-color: yellow;
+  border: 2px solid black;
+  font-size:10px;
+  margin: 20px;
+  padding: 8px;
+}
+h5{
+  margin: 50px;
+  border: 2px solod red;
 }
