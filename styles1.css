@@ -85,5 +85,13 @@ ul li {
 }
 h5{
   margin: 50px;
-  border: 2px solod red;
+  color: red;
+}
+#facts{
+  background-color: yellow;
+}
+@media screen and (max-width: 601px) {
+.card-text {
+    font-size: 0px;
+  }
 }
