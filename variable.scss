@@ -1,0 +1,51 @@
+$color: white;
+$font-size: 50px;
+$margin: 20px;
+
+%buttons{
+  border: 2px solid #ccc;
+  padding: 10px;
+  color: #333;
+  margin: 50px;
+  align-items: center;
+  font-size: 20px;
+}
+h1{
+  color: $color;
+  font-size: $font-size;
+  margin: $margin;
+  text-align: center;
+}
+img{
+  margin: 20px;
+}
+
+div {
+  p{
+    color: $color;
+    margin: 50px;
+    font-size: 35px;
+  }
+  img {
+    margin: 20px;
+    width : 50%;
+  }
+  h1,h2 {
+   font-size: 40px;
+   color: pink;
+   margin: 15px;
+  }
+}
+
+.mainpage{
+  @extend %buttons;
+  border-color: yellow;
+}
+
+.more{
+  @extend %buttons;
+  border-color: red;
+}
+body{
+  background-color: green;
+}
