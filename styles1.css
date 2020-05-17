@@ -72,10 +72,12 @@ ul li {
     display: none;
   }
 }
-.card,{
-  margin: 50px;
-  border: 50px solod black;
+
+.card{
+  display: flex;
+  flex-wape: wrap;
 }
+
 .col-lg-3, .col-sm-6{
   background-color: yellow;
   border: 2px solid black;
