@@ -9,6 +9,7 @@ h3{
   color: green;
     font-size: 30px;
     font-family: monospace, sans-serif;
+    margin: 10px;
 }
 h2{
   border: 2px dotted red;
@@ -24,9 +25,12 @@ font-size: 19px;
 table{
   border: 5px solid green;
   border-collapse: collapse;
-  margin-left;
-  width: 50%;
+  width: 75%;
 }
+@media screen and (max-width: 745px) {
+
+  }
+
 th{
     border: 2px solid black;
     font-family: fantasy , sans-serif;
@@ -92,9 +96,4 @@ h5{
 }
 #facts{
   background-color: yellow;
-}
-@media screen and (max-width: 601px) {
-.card-text {
-    font-size: 0px;
-  }
 }
